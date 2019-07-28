@@ -2,7 +2,8 @@
 monitor command and mail report
 
 # inst.sh
-execute install mc
+execute install mc  
+NOTE: restart ssh  login after install mc
 
 # config file
 /etc/mc/mc.conf
@@ -14,10 +15,17 @@ record command to file
 env variable 
 
 # mcmail 
-for mail command log
+for mail command log  
+eg. 
+1. mcmail file:YOURFILE subject recipient
+2. mcmail file:YOURFILE subject recipient accessnory
+3. mcmail YOURMSG  subject recipient
+4. mcmail YOURFILE subject recipient accessnory
 
 # mcpwd 
-for mc.conf within mailPwd encrypt password
+for mc.conf within mailPwd encrypt password  
+eg.  
+1. mcpwd -e YOURMAILPASSWORD
 
 # mcuser
 record user , ip , and ip relative addr
