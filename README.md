@@ -1,5 +1,5 @@
 # mc
-monitor command and mail report
+monitor Linux  command or ssh operate  and mail report
 
 # inst.sh
 execute install mc  
@@ -29,3 +29,6 @@ eg.
 
 # mcuser
 record user , ip , and ip relative addr
+
+# mccert
+generate certification file for CA , SSL , -G3
