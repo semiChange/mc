@@ -1,20 +1,20 @@
 # mc
 monitor Linux  command or ssh operate  and mail report
 
-# inst.sh
+### inst.sh
 execute install mc  
 NOTE: restart ssh  login after install mc
 
-# config file
+### config file
 /etc/mc/mc.conf
 
-# mccomm 
+### mccomm 
 record command to file
 
-# mcenv 
+### mcenv 
 env variable 
 
-# mcmail 
+### mcmail 
 for mail command log  
 eg. 
 1. mcmail file:YOURFILE subject recipient
@@ -22,13 +22,13 @@ eg.
 3. mcmail YOURMSG  subject recipient
 4. mcmail YOURFILE subject recipient accessnory
 
-# mcpwd 
+### mcpwd 
 for mc.conf within mailPwd encrypt password  
 eg.  
 1. mcpwd -e YOURMAILPASSWORD
 
-# mcuser
+### mcuser
 record user , ip , and ip relative addr
 
-# mccert
+### mccert
 generate certification file for CA , SSL , -G3
