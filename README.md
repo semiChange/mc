@@ -17,15 +17,19 @@ env variable
 ### mcmail 
 for mail command log  
 eg. 
+```shell
 1. mcmail file:YOURFILE subject recipient
 2. mcmail file:YOURFILE subject recipient accessnory
 3. mcmail YOURMSG  subject recipient
 4. mcmail YOURFILE subject recipient accessnory
-
+```
 ### mcpwd 
 for mc.conf within mailPwd encrypt password  
 eg.  
+```shell
 1. mcpwd -e YOURMAILPASSWORD
+```
+
 
 ### mcuser
 record user , ip , and ip relative addr
