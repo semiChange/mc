@@ -7,6 +7,27 @@ NOTE: restart ssh  login after install mc
 
 ### config file
 /etc/mc/mc.conf
+```c
+# log path 
+# record log file
+logPath=/tmp/.s/.his_command.log
+
+# mail sender is your account
+mailSender=
+
+# mail pwd is your mail password 
+# please use mcpwd to encrypt your password
+mailPwd=(eg. U2FsdGVkX18/rFRWPNp/dBoD3hPxmPyft+0NJF2lUWg=)
+
+#mail server SMTP
+mailServer=smtps://smtp.mxhichina.com (enterprise mail)
+mailServer=smtps://smtp.aliyun.com (person mail)
+
+#mail Server port
+mailPort=465
+```
+
+
 
 ### mccomm 
 record command to file
