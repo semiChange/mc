@@ -39,10 +39,16 @@ env variable
 for mail command log  
 eg. 
 ```shell
-1. mcmail file:YOURFILE subject recipient
-2. mcmail file:YOURFILE subject recipient accessnory
-3. mcmail YOURMSG  subject recipient
-4. mcmail YOURFILE subject recipient accessnory
+# send mc.conf config file
+mcmail file: subject recipient
+# send special file
+mcmail file:YOURFILE subject recipient
+# send additional 
+mcmail file:YOURFILE subject recipient accessnory
+# send text
+mcmail YOURMSG  subject recipient
+# send file & additional
+mcmail YOURFILE subject recipient accessnory
 ```
 ### mcpwd 
 for mc.conf within mailPwd encrypt password  
